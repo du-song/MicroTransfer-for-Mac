@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>SendToIphoneThisService</string>
+	<key>CFBundleIconFile</key>
+	<string>8101CEAE-1171-4235-801A-FF5C1B31E7E6-4556-000012EC53EBBF87.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>net.wafflesoftware.ThisService.generated-service.SendToIphone</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string></string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>NSBGOnly</key>
+	<string>1</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSServices</key>
+	<array>
+		<dict>
+			<key>NSKeyEquivalent</key>
+			<dict>
+				<key>default</key>
+				<string>E</string>
+			</dict>
+			<key>NSMenuItem</key>
+			<dict>
+				<key>default</key>
+				<string>Send to iPhone</string>
+			</dict>
+			<key>NSMessage</key>
+			<string>doServiceWork</string>
+			<key>NSPortName</key>
+			<string>ServiceSkeletonMagic</string>
+			<key>NSRequiredContext</key>
+			<array/>
+			<key>NSSendTypes</key>
+			<array>
+				<string>NSStringPboardType</string>
+			</array>
+			<key>NSServiceDescription</key>
+			<string></string>
+			<key>NSUserData</key>
+			<string>weichuan.rb</string>
+		</dict>
+	</array>
+	<key>ServiceSkeletonPortName</key>
+	<string>ThisServiceGeneratedServiceSendToIphone</string>
+	<key>ServiceSkeletonReferenceType</key>
+	<string>copy</string>
+	<key>ServiceSkeletonSuitableExecutableName</key>
+	<string>SendToIphone</string>
+	<key>ThisServiceServiceVersion</key>
+	<string>2</string>
+</dict>
+</plist>
