@@ -14,13 +14,13 @@ Install
 	* Copy the `SendToIphone.service` file into the `Services` folder.
 
 3. Make sure it is not blocked by _Gatekeeper_.	
-
 	* Double-click the service.
 	* An alert may appear with the text "service name can’t be opened because it is from an unidentified developer". This is a security feature in OS X. If you encounter this alert, click `OK` to close the dialog, then right click (or control+click ) the service and choose `Open` from the contextual menu. When the alert appears again, click the `Open` button to enable the service.
 	* This is the Gatekeeper feature in OS X, warning about downloaded software without a traceable cryptographic signature being used for the first time. For more information, search Mac Help for "Gatekeeper".
 
 4. Setup ~/.weichuanrc
 create `.weichuanrc` in your $HOME folder
+
 ```
 username: username
 authcode: authcode_or_leave_empty
