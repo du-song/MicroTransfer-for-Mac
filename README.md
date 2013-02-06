@@ -1,11 +1,11 @@
 Send to iPhone service
 ======================
-Push text snippets and URLs from Mac to iPhone by [WeiChuan (Chinese:微传)](http://weichuan.cn) as Mac OS X service ( in Menu → `Services` → `Send to iPhone` )
+Push text snippets and URLs from Mac to iPhone by [WeiChuan (Chinese:微传)](http://weichuan.me) as Mac OS X service ( in Menu → `Services` → `Send to iPhone` )
 
 Install
 -------
 
-1. Download and unzip [Send to iPhone](https://github.com/freewizard/Weichuan.service/archive/master.zip) and locate the `SendToIphone.service` file.
+1. Download and unzip [Send to iPhone](https://github.com/freewizard/MicroTransfer-for-Mac/archive/master.zip) and locate the `SendToIphone.service` file.
 
 2. Copy it to the `Services` folder.	
 	* Open a new Finder window by switching to the Finder and choosing File → New Finder Window.
@@ -31,3 +31,4 @@ authcode: authcode_or_leave_empty
 Credits
 -------
 The script is made possible with [ThisService](http://wafflesoftware.net/thisservice/services/)
+

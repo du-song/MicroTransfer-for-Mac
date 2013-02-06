@@ -8,7 +8,7 @@ conf = YAML.load_file(ENV['HOME']+'/.weichuanrc')
 
 def transfer(data, user, authcode)
 	t = data.match(/^https?\:/i) ? (data.match(/\.(jpg|png|gif|jpeg)/i) ? "50" : "10") : "20" # 10 url / 20 txt / 30 phone / 50 image
-	Net::HTTP.post_form(URI.parse("http://u.imtkoo.com/api/chrome/transmit"),
+	Net::HTTP.post_form(URI.parse("http://weichuan.me/api/chrome/transmit"),
 										 {"ucode" => user, 
 										  "password" => authcode,
 										  "type" => t,
